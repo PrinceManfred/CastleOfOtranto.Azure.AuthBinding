@@ -7,11 +7,11 @@ using Microsoft.Azure.WebJobs.Hosting;
 
 namespace CastleOfOtranto.Azure.AuthBinding
 {
-	public class AuthBindingStartup : IWebJobsStartup
+    public class AuthBindingStartup : IWebJobsStartup
     {
-		public AuthBindingStartup()
-		{
-		}
+        public AuthBindingStartup()
+        {
+        }
 
         public void Configure(IWebJobsBuilder builder)
         {

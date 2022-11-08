@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Azure.Functions.Worker.Extensions.Abstractions;
 
-[assembly: ExtensionInformation("CastleOfOtranto.Azure.AuthBinding", "0.1.0")]
+[assembly: ExtensionInformation("CastleOfOtranto.Azure.AuthBinding", "0.0.3")]
 
 namespace CastleOfOtranto.Azure.AuthBinding.Isolated
 {

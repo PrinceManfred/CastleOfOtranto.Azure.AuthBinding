@@ -1,0 +1,11 @@
+<Project>
+ <PropertyGroup>
+    <Authors>PrinceManfred</Authors>
+    <Version>0.0.3</Version>
+    <Copyright>Copyright Travis Carter</Copyright>
+    <PackageProjectUrl>https://github.com/PrinceManfred/CastleOfOtranto.Azure.AuthBinding</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PrinceManfred/CastleOfOtranto.Azure.AuthBinding</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+ </PropertyGroup>
+</Project>

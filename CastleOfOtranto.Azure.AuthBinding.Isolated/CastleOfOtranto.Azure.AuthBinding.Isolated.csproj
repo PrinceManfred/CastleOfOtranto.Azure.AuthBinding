@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>CastleOfOtranto.Azure.AuthBinding.Isolated</Title>
+    <Description>AuthBinding wrapper for Isolated Mode Functions apps.</Description>
   </PropertyGroup>
 
   <ItemGroup>

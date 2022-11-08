@@ -1,19 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Microsoft.Azure.WebJobs" />
-    <None Remove="Microsoft.Azure.WebJobs.Core" />
-    <None Remove="Microsoft.Azure.WebJobs.Extensions" />
-    <None Remove="Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator" />
-  </ItemGroup>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <Title>CastleOfOtranto.Azure.AuthBinding</Title>
+    <Description>An input binding for authentication and authorization.</Description>
+ </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.33" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Core" Version="3.0.33" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="4.0.1" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator" Version="4.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.25.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="6.25.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.25.0" />
   </ItemGroup>
+
 </Project>
